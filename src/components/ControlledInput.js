@@ -6,6 +6,18 @@ class Form extends Component {
     lastName: "Henry"
   }
 
+  handleFirstNameChange = event => {
+    this.setStaet({
+      firstName: event.target.value
+    })
+  }
+
+  handleLastNameChange = event => {
+    this.setStaet({
+      lastName: event.target.value
+    })
+  }
+
   render() {
     return (
       <form>
