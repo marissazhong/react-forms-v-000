@@ -5,18 +5,12 @@ class Form extends Component {
     value: '',
   }
 
-  handleFirstNameChange = event => {
+  handleChange = event => {
     this.setState({
-      firstName: event.target.value
-    })
+      value: event.target.value,
+    });
   }
-
-  handleLastNameChange = event => {
-    this.setState({
-      lastName: event.target.value
-    })
-  }
-
+  
   render() {
     return (
       <form>
