@@ -7,13 +7,13 @@ class Form extends Component {
   }
 
   handleFirstNameChange = event => {
-    this.setStaet({
+    this.setState({
       firstName: event.target.value
     })
   }
 
   handleLastNameChange = event => {
-    this.setStaet({
+    this.setState({
       lastName: event.target.value
     })
   }
