@@ -23,3 +23,5 @@ class Form extends Component {
     );
   }
 }
+
+export default ControlledInput;
